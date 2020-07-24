@@ -1,16 +1,13 @@
-#Command Line Chess
+# Command Line Chess
 
-This project is a recreation of chess through command line. Moves can be made by inputting formal short or long algebraic chess notation.
+This project is a recreation of chess through command line. Moves can be made by inputting formal short or long algebraic chess notation. For more instructions on app usage, type 'help' once the app is running.
 
-To run the game, type the following commands. Note this game works best with VSCode terminal. Otherwise the ascii chess pieces may not load.
+The newest version of ocaml must be installed. Installation instructions can be found at https://ocaml.org/docs/install.html
 
-'''bash
+To run the game, type the following commands.
+
+```bash
 make build
 make play
-'''
-
-*To run tests:
-make test
-
-*Note that VSCode may highlight a lot of code as red in tests.ml but the tests
- still run.
+```
+Note this game works best with VSCode terminal. Otherwise the ascii chess pieces may not load.
