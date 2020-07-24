@@ -1,0 +1,7 @@
+#require "oUnit";;
+#require "ANSITerminal";;
+#directory "_build";;
+#load "board.cmo";;
+#load "command.cmo";;
+#load "state.cmo";;
+#load "generalcheck.cmo";;

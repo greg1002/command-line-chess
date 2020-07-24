@@ -1,0 +1,11 @@
+To run the game, type the following commands. Note this game works best with
+VSCode terminal. Otherwise the ascii chess pieces may not load.
+
+make build
+make play
+
+*To run tests:
+make test
+
+*Note that VSCode may highlight a lot of code as red in tests.ml but the tests
+ still run.
